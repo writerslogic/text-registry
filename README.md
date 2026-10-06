@@ -1,14 +1,8 @@
-<!-- repo-header:start -->
-<img src="https://github.com/writerslogic.png?size=160" alt="WritersLogic Text Registry logo" width="120" align="left">
+### WritersLogic Text Registry
 
-<h1>WritersLogic Text Registry</h1>
+A plain git repository, not a database, for publishing and verifying provenance records: every manifest is a file and every update is a commit.
 
-<p><strong>Project documentation and resources for Text Registry.</strong></p>
-
-<br clear="left">
-
-[![CI](https://img.shields.io/github/actions/workflow/status/writerslogic/text-registry/aggregate.yml?style=flat-square&labelColor=20232a&branch=main&label=CI)](https://github.com/writerslogic/text-registry/actions/workflows/aggregate.yml) [![Best Practices Evidence](https://img.shields.io/badge/best%20practices-evidence%20reviewed-6a4c93?style=flat-square&labelColor=20232a)](.bestpractices.json) [![License](https://img.shields.io/github/license/writerslogic/text-registry?style=flat-square&labelColor=20232a&color=007ec6&label=license)](https://github.com/writerslogic/text-registry/blob/main/LICENSE) [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Sponsor-EA4AAA?style=flat-square&labelColor=20232a)](https://github.com/sponsors/dcondrey)
-<!-- repo-header:end -->
+[![CI](https://img.shields.io/github/actions/workflow/status/writerslogic/text-registry/aggregate.yml?branch=main&label=CI)](https://github.com/writerslogic/text-registry/actions/workflows/aggregate.yml) [![License](https://img.shields.io/badge/license-AGPL--3.0-blue)](https://github.com/writerslogic/text-registry/blob/main/LICENSE)
 
 This registry is a plain git repository, not a database. Publishing and verifying provenance records here costs nothing to run at any scale: every manifest is a file, every update is a commit, and the discovery index is derived data anyone can regenerate from the manifests alone.
 
